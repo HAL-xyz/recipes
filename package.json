@@ -1,0 +1,9 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "A module to describe HAL's recipes",
+  "main": "index.js",
+  "repository": "https://github.com/HAL-xyz/recipes",
+  "author": "HAL.xyz",
+  "license": "MIT"
+}
