@@ -2,8 +2,24 @@
   "name": "recipes",
   "version": "1.0.0",
   "description": "A module to describe HAL's recipes",
-  "main": "index.js",
-  "repository": "https://github.com/HAL-xyz/recipes",
-  "author": "HAL.xyz",
-  "license": "MIT"
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HAL-xyz/recipes"
+  },
+  "keywords": [
+    "HAL",
+    "ethereum",
+    "smart",
+    "contract",
+    "transaction",
+    "wallet"
+  ],
+  "author": "HAL.xyz (https://www.hal.xyz)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
 }
