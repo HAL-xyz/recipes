@@ -1,0 +1,12 @@
+{
+  "name": "Just a simple name",
+  "recipeID": "pooltogether-deposit-notification",
+  "parameters": {
+    "pool": "0x..",
+    "address": "0x..",
+    "condition": {
+      "predicate": "SmallerThan",
+      "value": "10000000000000"
+    }
+  }
+}

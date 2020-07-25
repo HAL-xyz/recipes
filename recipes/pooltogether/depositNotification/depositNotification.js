@@ -1,26 +1,6 @@
-const abi = [
-  {
-    anonymous: false,
-    inputs: [
-      {
-        indexed: true,
-        internalType: 'address',
-        name: 'sender',
-        type: 'address',
-      },
-      {
-        indexed: false,
-        internalType: 'uint256',
-        name: 'amount',
-        type: 'uint256',
-      },
-    ],
-    name: 'Deposited',
-    type: 'event',
-  },
-];
+const abi = require('./abi');
 
-const pooltogetherDepositNotifications = (input) => {
+const pooltogetherDepositNotification = (input) => {
   const Filters = [];
 
   if (Object.keys(input.parameters).length === 1 && Object.keys(input.parameters)[0] === 'pool') {
@@ -67,4 +47,4 @@ const pooltogetherDepositNotifications = (input) => {
   });
 };
 
-module.exports = pooltogetherDepositNotifications;
+module.exports = pooltogetherDepositNotification;

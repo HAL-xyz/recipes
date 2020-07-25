@@ -1,0 +1,7 @@
+{
+  "name": "Just a simple name",
+  "recipeID": "pooltogether-winner-notification",
+  "parameters": {
+    "pool": "0x.."
+  }
+}
