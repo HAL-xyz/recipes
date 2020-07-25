@@ -20,4 +20,4 @@ const abi = [
   },
 ];
 
-module.exports = { abi };
+module.export = { abi };
