@@ -1,0 +1,7 @@
+{
+  "name": "Just a simple name",
+  "recipeID": "uniswap-track-pair-creation",
+  "parameters": {
+    "token": "0x.."
+  }
+}
