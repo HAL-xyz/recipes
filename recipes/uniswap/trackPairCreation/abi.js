@@ -32,4 +32,4 @@ const abi = [
   },
 ];
 
-export default abi;
+module.exports = { abi };

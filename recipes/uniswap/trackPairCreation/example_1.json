@@ -1,7 +1,19 @@
 {
-  "name": "Just a simple name",
   "recipeID": "uniswap-track-pair-creation",
-  "parameters": {
-    "token": "0x.."
-  }
+  "triggers": [
+    {
+      "name": "Just a simple name",
+      "parameters": {
+        "token": "0x5bb3c72ae34b6e137b37c3994e80dcca8ec58b60"
+      },
+      "actions": [
+        {
+          "type": "Webhook",
+          "attributes": {
+            "uri": "http://foo.bar"
+          }
+        }
+      ]
+    }
+  ]
 }
